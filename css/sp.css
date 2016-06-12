@@ -1393,9 +1393,15 @@ body {
       #skills .skills_image .fa-check#JS {
         top: 13.5%;
         left: 18.5%; }
+      #skills .skills_image .fa-check#CS {
+        top: 28.5%;
+        left: 20%; }
       #skills .skills_image .fa-check#PHP {
         top: 28.4%;
         left: 27.5%; }
+      #skills .skills_image .fa-check#Java {
+        top: 28.4%;
+        left: 0%; }
       #skills .skills_image .fa-check#CFS {
         top: 28.4%;
         left: 55%; }
@@ -1408,6 +1414,12 @@ body {
       #skills .skills_image .fa-check#HTML {
         top: 58.5%;
         left: 54%; }
+      #skills .skills_image .fa-check#C {
+        top: 73.5%;
+        left: 56%; }
+      #skills .skills_image .fa-check#PHP {
+        top: 28.4%;
+        left: 27.5%; }
       #skills .skills_image .fa-check#SASS {
         top: 81%;
         left: 63.5%; }
