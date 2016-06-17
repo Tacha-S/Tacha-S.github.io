@@ -1,291 +1,522 @@
-<!doctype html>
-<html lang="ja">
+<!DOCTYPE html>
+<!--[if lt IE 7]><html class="no-js lt-ie9 lt-ie8 lt-ie7" lang="en"> <![endif]-->
+<!--[if (IE 7)&!(IEMobile)]><html class="no-js lt-ie9 lt-ie8" lang="en"><![endif]-->
+<!--[if (IE 8)&!(IEMobile)]><html class="no-js lt-ie9" lang="en"><![endif]-->
+<!--[if (IE 9)]><html class="no-js ie9" lang="en"><![endif]-->
+<!--[if gt IE 8]><!--> <html lang="en-US"> <!--<![endif]-->
 <head>
-  <meta charset="UTF-8">
-  <title>Tacha-S.github.io</title>
-  <script type="text/javascript">
-    // smartphone
-    if ((navigator.userAgent.indexOf('iPhone') > 0 && navigator.userAgent.indexOf('iPad') == -1) || navigator.userAgent.indexOf('iPod') > 0 || navigator.userAgent.indexOf('Android') > 0) {
-      location.href = './sp.html';
-    }
-  </script>
-  <link rel="stylesheet" href="css/style.css">
-  <link rel="stylesheet" href="js/lib/monokai-sublime.css">
-  <script src="js/lib/highlight.pack.js"></script>
-  <script src="js/lib/jquery-2.1.0.min.js"></script>
-  <script src="js/lib/skrollr.js"></script>
-  <script src="js/script.js"></script>
-  <link rel="shortcut icon" href="img/favicon.ico">
-  <link rel="canonical" href="/">
+
+<!-- Meta Tags -->
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+
+<title>Tacha-S introduction page</title>
+
+<meta name="description" content="Insert Your Site Description" />
+
+<!-- Mobile Specifics -->
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="HandheldFriendly" content="true"/>
+<meta name="MobileOptimized" content="320"/>
+
+<!-- Mobile Internet Explorer ClearType Technology -->
+<!--[if IEMobile]>  <meta http-equiv="cleartype" content="on">  <![endif]-->
+
+<!-- Bootstrap -->
+<link href="_include/css/bootstrap.min.css" rel="stylesheet">
+
+<!-- Main Style -->
+<link href="_include/css/main.css" rel="stylesheet">
+
+<!-- Supersized -->
+<link href="_include/css/supersized.css" rel="stylesheet">
+<link href="_include/css/supersized.shutter.css" rel="stylesheet">
+
+<!-- FancyBox -->
+<link href="_include/css/fancybox/jquery.fancybox.css" rel="stylesheet">
+
+<!-- Font Icons -->
+<link href="_include/css/fonts.css" rel="stylesheet">
+
+<!-- Shortcodes -->
+<link href="_include/css/shortcodes.css" rel="stylesheet">
+
+<!-- Responsive -->
+<link href="_include/css/bootstrap-responsive.min.css" rel="stylesheet">
+<link href="_include/css/responsive.css" rel="stylesheet">
+
+<!-- Supersized -->
+<link href="_include/css/supersized.css" rel="stylesheet">
+<link href="_include/css/supersized.shutter.css" rel="stylesheet">
+
+<!-- Google Font -->
+<link href='http://fonts.googleapis.com/css?family=Titillium+Web:400,200,200italic,300,300italic,400italic,600,600italic,700,700italic,900' rel='stylesheet' type='text/css'>
+
+<!-- Fav Icon -->
+<link rel="shortcut icon" href="./_include/img/profile/favicon.ico">
+
+<link rel="apple-touch-icon" href="#">
+<link rel="apple-touch-icon" sizes="114x114" href="#">
+<link rel="apple-touch-icon" sizes="72x72" href="#">
+<link rel="apple-touch-icon" sizes="144x144" href="#">
+
+<!-- Modernizr -->
+<script src="_include/js/modernizr.js"></script>
+
+<!-- Analytics -->
+<script type="text/javascript">
+
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'Insert Your Code']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+
+</script>
+<!-- End Analytics -->
+
 </head>
+
+
 <body>
 
-  <div id="home" data-3500="top:0px;" data-3510="top:-1%;" data-5200="top:-100%;">
-    <div class="side">
-      <dl>
-        <dt>OPEN FILES</dt>
-        <dd class="file current">Tacha-S.github.io</dd>
+<!-- This section is for Splash Screen -->
+<div class="ole">
+<section id="jSplash">
+	<div id="circle"></div>
+</section>
+</div>
+<!-- End of Splash Screen -->
 
-        <dt>FOLDERS</dt>
-        <dd><i class="fa fa-folder-open"></i>home</dd>
-        <dd class="file current">Tacha-S.github.io</dd>
-        <dd><a href="#about"><i class="fa fa-folder"></i>about</a></dd>
-        <!-- <dd><a href="#works"><i class="fa fa-folder"></i>works</a></dd> -->
-        <dd><a href="#skills"><i class="fa fa-folder"></i>skills</a></dd>
-        <dd><a href="#contact"><i class="fa fa-folder"></i>contact</a></dd>
-      </dl>
+<!-- Homepage Slider -->
+<div id="home-slider">
+    <div class="overlay"></div>
+
+    <div class="slider-text">
+    	<div id="slidecaption"></div>
     </div>
 
-    <div class="main">
-      <div class="tabs">
-        <div class="tab">
-          Tacha-S.github.io
-          <span class="fa-stack" id="close">
-            <i class="fa fa-square fa-stack-2x"></i>
-            <i class="fa fa-times fa-stack-1x fa-inverse"></i>
-          </span>
-        </div>
-      </div>
-      <div class="body">
-        <div class="lines">
-          1<br />2<br />3<br />4<br />5<br />6<br />7<br />8<br />9<br />10<br />11<br />12<br />13<br />14<br />15<br />16<br />17<br />18<br />19<br />20<br />21<br />22<br />23<br />24<br />25<br />26<br />27<br />28<br />29<br />30<br />31<br />32<br />33<br />34<br />35<br />36<br />37<br />38<br />39<br />40
-        </div>
-<pre><code id="comment">/************************************
-* Tacha-S.github.io
-*
-* Please scrolling ;)
-************************************/</code>
-<code id="code">
-const me = new Human('1995/10/19', 'Aichi');
+	<div class="control-nav">
+        <a id="prevslide" class="load-item"><i class="font-icon-arrow-simple-left"></i></a>
+        <a id="nextslide" class="load-item"><i class="font-icon-arrow-simple-right"></i></a>
+        <ul id="slide-list"></ul>
 
-me.name = 'Tatsuroh Sakaguchi';
-me.live = 'Osaka';
-
-while (me.isLive()) {
-  me.coding();
-  if(me.hasFreeTime()){
-    me.travel();
-  }
-}
-
-console.log('Thank you for scrolling :D');
-
-</code></pre>
-      </div>
-
-      <div id="scroll_attention" data-0="opacity:1;" data-200="opacity:0;" >
-        Please Scroll<br />
-        <div class="down_arrow"></div>
-      </div>
+        <a id="nextsection" href="#work"><i class="font-icon-arrow-simple-down"></i></a>
     </div>
+</div>
+<!-- End Homepage Slider -->
 
-    <div id="global_navi">
-      <div class="editor_foot">
-        <div class="float_left">
-          INSERT MODE, Line <span id="line-num">1</span>, Column <span id="col-num">1</span>
-        </div>
-        <div class="float_right">
-          <span class="charset">UTF-8</span>
-          <span>JavaScript</span>
-        </div>
-      </div>
+<!-- Header -->
+<header>
+    <div class="sticky-nav">
+    	<a id="mobile-nav" class="menu-nav" href="#menu-nav"></a>
 
-      <div class="navi_menu">
-        <div class="logo cf">
-          <a href="#home">
-            <span>Tacha-S</span>
-          </a>
+        <div id="logo">
+        	<a id="goUp" href="#home-slider" title="Tacha-S introduction page">Introduction</a>
         </div>
-        <ul>
-          <li><a href="#about">ABOUT</a></li>
-          <li><a href="#skills_body">SKILLS</a></li>
-          <!-- <li><a href="#works">WORKS</a></li> -->
-          <li><a href="#contact">CONTACT</a></li>
-        </ul>
-        <!-- <span id="navi_marker"
-        data-7900="bottom:-5px;"
-        data-8000="bottom:0px;"
-        data-14300="right:385px;"
-        data-14400="right:273px;"
-        data-16500="right:273px;"
-        data-16600="right:162px;"
-        data-21900="right:162px;"
-        data-22000="right:43px;"
-        ></span> -->
-        <span id="navi_marker"
-        data-7900="bottom:-5px;"
-        data-8000="bottom:0px;"
-        data-14300="right:273px;"
-        data-14400="right:162px;"
-        data-16500="right:162px;"
-        data-22000="right:43px;"
-        ></span>
 
-      </div>
+        <nav id="menu">
+        	<ul id="menu-nav">
+            	<li class="current"><!--<a href="#home-slider">Home</a></li>
+                <li>--><a href="#work">Works</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#social-area">Contact</a></li>
+				        <!--<li><a href="shortcodes.html" class="external">Shortcodes</a></li>-->
+            </ul>
+        </nav>
+
     </div>
-    <!--/ global_navi -->
-  </div>
-  <!--/ home -->
+</header>
+<!-- End Header -->
 
-  <div id="bg1" data-3500="top:60%;" data-8000="top:-100%; display: block;" data-13000="display:none;"></div>
-  <div class="white_text" data-4500="top:45%;" data-10000="top:100%;">"Hello, Everyone"</div>
+<!-- Our Work Section -->
+<div id="work" class="page">
+	<div class="container">
+    	<!-- Title Page -->
+        <div class="row">
+            <div class="span12">
+                <div class="title-page">
+                    <h2 class="title">Works</h2>
+                    <h3 class="title-description">Detail My Works on <a href="https://github.com/Tacha-S">Github</a>.</h3>
+                </div>
+            </div>
+        </div>
+        <!-- End Title Page -->
 
-  <div id="about" data-4500="top:100%;" data-8000="top:0%;" data-11300="top:0%;" data-14000="top:-100%;" data-16600="top:-100%;" data-16700="top:-200%">
-    <h2>ABOUT</h2>
-    <div class="wrap">
-      <div class="image"><img src="img/profile.png" alt="tacha"></div>
-      <div class="textbox">
-        <div class="text" data-8500="opacity:1;z-index:10;" data-8800="opacity:0;z-index:0;">
-          <h3>Tatsuroh Sakaguchi</h3>
-          <p>
-          趣味やアルバイトでプログラミング。<br>
-          <br>
-          プログラミング以外にも、<br>
-          旅行、ロードバイク、スポーツ等が好き。<br>
-          <br>
-          プログラミングは、<br>
-          システム面は得意だが、表面は苦手。<br>
-          ロボット、機械学習に興味あり
-          </p>
+        <!-- Portfolio Projects -->
+        <div class="row">
+        	<div class="span3">
+            	<!-- Filter -->
+                <nav id="options" class="work-nav">
+                    <ul id="filters" class="option-set" data-option-key="filter">
+                    	<li class="type-work">Type of Work</li>
+                        <li><a href="#filter" data-option-value="*" class="selected">All Projects</a></li>
+                        <li><a href="#filter" data-option-value=".robocup">Robocup</a></li>
+                        <li><a href="#filter" data-option-value=".other">Other App</a></li>
+                        <!-- <li><a href="#filter" data-option-value=".video">Video</a></li> -->
+                    </ul>
+                </nav>
+                <!-- End Filter -->
+            </div>
+
+            <div class="span9">
+            	<div class="row">
+                	<section id="projects">
+                    	<ul id="thumbs">
+
+							<!-- Item Project and Filter Name -->
+                        	<li class="item-thumbs span3 robocup">
+                            	<!-- Fancybox - Gallery Enabled - Title - Full Image -->
+                            	<a class="hover-wrap fancybox" data-fancybox-group="gallery" title="SSL Graphical Viewer" href="_include/img/work/full/image-01-full.jpg">
+                                	<span class="overlay-img"></span>
+                                    <span class="overlay-img-thumb font-icon-plus"></span>
+                                </a>
+                                <!-- Thumb Image and Description -->
+                                <img src="_include/img/work/thumbs/image-01.jpg" alt="For RoboCup Soccer Small Size League. It's graphical viewer for ssl protocol datas. This app runs cross platform. ;D">
+                            </li>
+                        	<!-- End Item Project -->
+
+              <style>/*
+              <!-- Item Project and Filter Name -->
+                          <li class="item-thumbs span3 design">
+                              <!-- Fancybox - Gallery Enabled - Title - Full Image -->
+                              <a class="hover-wrap fancybox" data-fancybox-group="gallery" title="The Office" href="_include/img/work/full/image-02-full.jpg">
+                                  <span class="overlay-img"></span>
+                                    <span class="overlay-img-thumb font-icon-plus"></span>
+                                </a>
+                                <!-- Thumb Image and Description -->
+                                <img src="_include/img/work/thumbs/image-02.jpg" alt="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus quis elementum odio. Curabitur pellentesque, dolor vel pharetra mollis.">
+                            </li>
+                          <!-- End Item Project -->
+
+              <!-- Item Project and Filter Name -->
+                          <li class="item-thumbs span3 photography">
+                              <!-- Fancybox - Gallery Enabled - Title - Full Image -->
+                              <a class="hover-wrap fancybox" data-fancybox-group="gallery" title="The Mountains" href="_include/img/work/full/image-03-full.jpg">
+                                  <span class="overlay-img"></span>
+                                    <span class="overlay-img-thumb font-icon-plus"></span>
+                                </a>
+                                <!-- Thumb Image and Description -->
+                                <img src="_include/img/work/thumbs/image-03.jpg" alt="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus quis elementum odio. Curabitur pellentesque, dolor vel pharetra mollis.">
+                            </li>
+                          <!-- End Item Project -->
+
+              <!-- Item Project and Filter Name -->
+                          <li class="item-thumbs span3 video">
+                              <!-- Fancybox Media - Gallery Enabled - Title - Link to Video -->
+                              <a class="hover-wrap fancybox-media" data-fancybox-group="video" title="Video Content From Vimeo" href="http://vimeo.com/51460511">
+                                  <span class="overlay-img"></span>
+                                    <span class="overlay-img-thumb font-icon-plus"></span>
+                                </a>
+                                <!-- Thumb Image and Description -->
+                                <img src="_include/img/work/thumbs/image-08.jpg" alt="Video">
+                            </li>
+                          <!-- End Item Project -->
+
+              <!-- Item Project and Filter Name -->
+                          <li class="item-thumbs span3 photography">
+                              <!-- Fancybox - Gallery Enabled - Title - Full Image -->
+                              <a class="hover-wrap fancybox" data-fancybox-group="gallery" title="The Sea" href="_include/img/work/full/image-04-full.jpg">
+                                  <span class="overlay-img"></span>
+                                    <span class="overlay-img-thumb font-icon-plus"></span>
+                                </a>
+                                <!-- Thumb Image and Description -->
+                                <img src="_include/img/work/thumbs/image-04.jpg" alt="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus quis elementum odio. Curabitur pellentesque, dolor vel pharetra mollis.">
+                            </li>
+                          <!-- End Item Project -->
+
+              <!-- Item Project and Filter Name -->
+                          <li class="item-thumbs span3 photography">
+                              <!-- Fancybox - Gallery Enabled - Title - Full Image -->
+                              <a class="hover-wrap fancybox" data-fancybox-group="gallery" title="Clouds" href="_include/img/work/full/image-05-full.jpg">
+                                  <span class="overlay-img"></span>
+                                    <span class="overlay-img-thumb font-icon-plus"></span>
+                                </a>
+                                <!-- Thumb Image and Description -->
+                                <img src="_include/img/work/thumbs/image-05.jpg" alt="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus quis elementum odio. Curabitur pellentesque, dolor vel pharetra mollis.">
+                            </li>
+                          <!-- End Item Project -->
+
+              <!-- Item Project and Filter Name -->
+                          <li class="item-thumbs span3 video">
+                              <!-- Fancybox Media - Gallery Enabled - Title - Link to Video -->
+                              <a class="hover-wrap fancybox-media" data-fancybox-group="video" title="Video Content From Vimeo" href="http://vimeo.com/50834315">
+                                  <span class="overlay-img"></span>
+                                    <span class="overlay-img-thumb font-icon-plus"></span>
+                                </a>
+                                <!-- Thumb Image and Description -->
+                                <img src="_include/img/work/thumbs/image-09.jpg" alt="Video">
+                            </li>
+                          <!-- End Item Project -->
+
+              <!-- Item Project and Filter Name -->
+                          <li class="item-thumbs span3 design">
+                              <!-- Fancybox - Gallery Enabled - Title - Full Image -->
+                              <a class="hover-wrap fancybox" data-fancybox-group="gallery" title="The Dark" href="_include/img/work/full/image-06-full.jpg">
+                                  <span class="overlay-img"></span>
+                                    <span class="overlay-img-thumb font-icon-plus"></span>
+                                </a>
+                                <!-- Thumb Image and Description -->
+                                <img src="_include/img/work/thumbs/image-06.jpg" alt="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus quis elementum odio. Curabitur pellentesque, dolor vel pharetra mollis.">
+                            </li>
+                          <!-- End Item Project -->
+
+              <!-- Item Project and Filter Name -->
+                          <li class="item-thumbs span3 design">
+                              <!-- Fancybox - Gallery Enabled - Title - Full Image -->
+                              <a class="hover-wrap fancybox" data-fancybox-group="gallery" title="The Beach" href="_include/img/work/full/image-07-full.jpg">
+                                  <span class="overlay-img"></span>
+                                    <span class="overlay-img-thumb font-icon-plus"></span>
+                                </a>
+                                <!-- Thumb Image and Description -->
+                                <img src="_include/img/work/thumbs/image-07.jpg" alt="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus quis elementum odio. Curabitur pellentesque, dolor vel pharetra mollis.">
+                            </li>
+                          <!-- End Item Project -->
+              */</style>
+                        </ul>
+                    </section>
+
+            	</div>
+            </div>
         </div>
-        <div class="text" data-8800="opacity:0;" data-9100="opacity:1;" data-10000="opacity:1;" data-10300="opacity:0;">
-          <h3>history</h3>
-          <p>
-          高専でRoboCup Soccer(SSL)チームに参加。<br><br />
-          高専を出たあとは大阪大学へ。<br><br />
-          大学ではプログラミングスキルがつかないので、趣味、アルバイトで補う。
-          </p>
+        <!-- End Portfolio Projects -->
+    </div>
+</div>
+<!-- End Our Work Section -->
+
+<!-- About Section -->
+<div id="about" class="page-alternate">
+<div class="container">
+    <!-- Title Page -->
+    <div class="row">
+        <div class="span12">
+            <div class="title-page">
+                <h2 class="title">About</h2>
+                <h3 class="title-description">Self Introduction.</h3>
+            </div>
         </div>
-        <div class="text" data-10300="opacity:0;" data-10600="opacity:1;">
-          <h3>mind</h3>
-          <p>
-          公開するからには可読性を！<br><br />
-          プログラミングするとき、一気に突っ走ってしまうタイプ。<br>
-          少しずつ丁寧に、わかりやすくまとめるよう気をつけていきたい。
-          </p>
-        </div>
-        <div class="marker_area">
-          <span class="pointer" data-8850="left:13px;" data-9150="left:53px;" data-10350="left:53px;" data-10750="left:93px;"></span>
-          <div class="marker_wrap">
-            <span class="marker"></span>
-            <span class="marker"></span>
-            <span class="marker"></span>
+    </div>
+    <!-- End Title Page -->
+
+    <!-- People -->
+    <div class="row">
+
+        <!-- Start Profile -->
+    	<div class="span6 profile">
+        	<div class="image-wrap">
+                <div class="hover-wrap">
+                    <span class="overlay-img"></span>
+                    <span class="overlay-text-thumb">Student/Programmer</span>
+                </div>
+                <img src="_include/img/profile/profile.png" alt="Tatsuroh Sakaguchi">
+            </div>
           </div>
+          <div class="span6 profile">
+            <h3 class="profile-name">Tatsuroh Sakaguchi</h3>
+            <p class="profile-description">Coding as a hobby or part-time job.<br>
+              <br />
+              I often go short trip, cycling by road bike and play sports in my free time.<br>
+              I'm interested in Machine Learning, Robotics and so on.<br>
+              <br />
+              I graduated from National Institute of Technology Toyota College.<br>
+              I'm studing at Osaka University, now.
+          </div>
+        <!-- End Profile -->
+        <style>/*
+        <!-- Start Profile -->
+      <div class="span4 profile">
+          <div class="image-wrap">
+                <div class="hover-wrap">
+                    <span class="overlay-img"></span>
+                    <span class="overlay-text-thumb">Creative Director</span>
+                </div>
+                <img src="_include/img/profile/profile-02.jpg" alt="Jane Helf">
+            </div>
+            <h3 class="profile-name">Jane Helf</h3>
+            <p class="profile-description">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas ac augue at erat <a href="#">hendrerit dictum</a>.
+            Praesent porta, purus eget sagittis imperdiet, nulla mi ullamcorper metus, id hendrerit metus diam vitae est. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos.</p>
+
+            <div class="social">
+              <ul class="social-icons">
+                  <li><a href="#"><i class="font-icon-social-twitter"></i></a></li>
+                    <li><a href="#"><i class="font-icon-social-email"></i></a></li>
+                </ul>
+            </div>
         </div>
-      </div>
+        <!-- End Profile -->
+
+        <!-- Start Profile -->
+      <div class="span4 profile">
+          <div class="image-wrap">
+                <div class="hover-wrap">
+                    <span class="overlay-img"></span>
+                    <span class="overlay-text-thumb">Lead Designer</span>
+                </div>
+                <img src="_include/img/profile/profile-03.jpg" alt="Joshua Insanus">
+            </div>
+            <h3 class="profile-name">Joshua Insanus</h3>
+            <p class="profile-description">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas ac augue at erat <a href="#">hendrerit dictum</a>.
+            Praesent porta, purus eget sagittis imperdiet, nulla mi ullamcorper metus, id hendrerit metus diam vitae est. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos.</p>
+
+            <div class="social">
+              <ul class="social-icons">
+                  <li><a href="#"><i class="font-icon-social-twitter"></i></a></li>
+                    <li><a href="#"><i class="font-icon-social-linkedin"></i></a></li>
+                    <li><a href="#"><i class="font-icon-social-google-plus"></i></a></li>
+                    <li><a href="#"><i class="font-icon-social-vimeo"></i></a></li>
+                </ul>
+            </div>
+        </div>
+        <!-- End Profile -->
+        */</style>
     </div>
+    <!-- End People -->
+</div>
+</div>
+<!-- End About Section -->
 
-    <div id="skills"><h2>SKILLS</h2></div>
-  </div>
-  <!--/ about -->
 
-  <div id="skills_body" data-9500="display: none;" data-10000="display:block;" data-16600="display: none;">
-    <ul class="graphs" data-10000="left: -25%;" data-14000="left: 30%;">
-      <li data-13000="margin-top: -100%;" data-14000="margin-top: 0%;" data-15000="margin-top: 0%;" data-16000="margin-top: -200%;">
-        <div class="graph">
-          <div class="graph_inner" data-13000="margin-top: 400px;" data-14400="margin-top: 180px;"></div>
+<script>/*
+<!-- Contact Section -->
+<div id="contact" class="page">
+<div class="container">
+    <!-- Title Page -->
+    <div class="row">
+        <div class="span12">
+            <div class="title-page">
+                <h2 class="title">Get in Touch</h2>
+                <h3 class="title-description">We’re currently accepting new client projects. We look forward to serving you.</h3>
+            </div>
         </div>
-        <div class="title">HTML</div>
-        <div class="image">
-          <img src="img/skills_html.png" alt="HTML">
-        </div>
-      </li>
-      <li data-12500="margin-top: -100%;" data-14000="margin-top: 0%;" data-15150="margin-top: 0%;" data-16150="margin-top: -200%;">
-        <div class="graph">
-          <div class="graph_inner" data-13000="margin-top: 400px;" data-14400="margin-top: 200px;"></div>
-        </div>
-        <div class="title">CSS</div>
-        <div class="image">
-          <img src="img/skills_css.png" alt="HTML">
-        </div>
-      </li>
-      <li data-12000="margin-top: -100%;" data-14000="margin-top: 0%;" data-15300="margin-top: 0%;" data-16300="margin-top: -200%;">
-        <div class="graph">
-          <div class="graph_inner" data-13000="margin-top: 400px;" data-14400="margin-top: 100px;"></div>
-        </div>
-        <div class="title">JavaScript</div>
-        <div class="image">
-          <img src="img/skills_js.png" alt="HTML">
-        </div>
-      </li>
-    </ul>
-    <ul class="graphs" data-10000="right: -25%;" data-14000="right: 30%;">
-      <li data-12000="margin-top: -100%;" data-14000="margin-top: 0%;" data-15450="margin-top: 0%;" data-16450="margin-top: -200%;">
-        <div class="graph">
-          <div class="graph_inner" data-13000="margin-top: 400px;" data-14400="margin-top: 60px;"></div>
-        </div>
-        <div class="title">C++</div>
-        <div class="image">
-          <img src="img/skills_cpp.png" alt="HTML">
-        </div>
-      </li>
-      <li data-12500="margin-top: -100%;" data-14000="margin-top: 0%;" data-15600="margin-top: 0%;" data-16600="margin-top: -200%;">
-        <div class="graph">
-          <div class="graph_inner" data-13000="margin-top: 400px;" data-14400="margin-top: 100px;"></div>
-        </div>
-        <div class="title">Python</div>
-        <div class="image">
-          <img src="img/skills_python.png" alt="HTML">
-        </div>
-      </li>
-      <li data-13000="margin-top: -100%;" data-14000="margin-top: 0%;" data-15750="margin-top: 0%;" data-16750="margin-top: -200%;">
-        <div class="graph">
-          <div class="graph_inner" data-13000="margin-top: 400px;" data-14400="margin-top: 90px;"></div>
-        </div>
-        <div class="title">Java</div>
-        <div class="image">
-          <img src="img/skills_java.png" alt="HTML">
-        </div>
-      </li>
-    </ul>
-  </div>
-  <!--/ skills_body -->
+    </div>
+    <!-- End Title Page -->
+    <!-- Contact Form -->
+    <div class="row">
+    	<div class="span9">
 
-  <div id="bg2" data-15500="top:0%;" data-17500="top:0%;"></div>
-    <div class="white_text" data-17500="top:-20%;" data-22000="top:100%;">"Stay hungry. Stay foolish."</div>
-  </div>
+        	<form id="contact-form" class="contact-form" action="#">
+            	<p class="contact-name">
+            		<input id="contact_name" type="text" placeholder="Full Name" value="" name="name" />
+                </p>
+                <p class="contact-email">
+                	<input id="contact_email" type="text" placeholder="Email Address" value="" name="email" />
+                </p>
+                <p class="contact-message">
+                	<textarea id="contact_message" placeholder="Your Message" name="message" rows="15" cols="40"></textarea>
+                </p>
+                <p class="contact-submit">
+                	<a id="contact-submit" class="submit" href="#">Send Your Email</a>
+                </p>
 
-  <div id="contact" data-18800="top:100%;" data-22000="top:0%;">
-    <h2>CONTACT</h2>
+                <div id="response">
 
-    <ul id="links" class="cf">
-      <li><a href="https://twitter.com/tacha_ioiq" target="_blank">
-        <img src="img/link_twitter.png" alt="twitter" />
-      </a></li>
-      <li><a href="https://www.facebook.com/tatsuroh.sakaguchi" target="_blank">
-        <img src="img/link_facebook.png" alt="facebook" />
-      </a></li>
-      <li><a href="#home" target="_blank">
-        <img src="img/home.png" alt="home" />
-      </a></li>
-      <li><a href="https://github.com/Tacha-S" target="_blank">
-        <img src="img/link_github.png" alt="github" />
-      </a></li>
-      <li><a href="mailto:&#116;&#097;&#099;&#099;&#104;&#097;&#110;&#046;&#109;&#101;&#108;&#108;&#111;&#046;&#105;&#111;&#105;&#113;&#064;&#103;&#109;&#097;&#105;&#108;&#046;&#099;&#111;&#109;&#010;" target="_blank">
-        <img src="img/link_mail.png" alt="mail" />
-      </a></li>
-    </ul>
+                </div>
+            </form>
 
-   <ul id="share">
-     <li class="twitter"><a href="https://twitter.com/share" class="twitter-share-button" data-url="http://Tacha-S.github.io/" data-via="Tacha-S">Tweet</a></li>
-     <li class="facebook"><iframe src="//www.facebook.com/plugins/like.php?href=http%3A%2F%2FTacha-S.github.io%2F&amp;width&amp;layout=button_count&amp;action=like&amp;show_faces=false&amp;share=false&amp;height=21" scrolling="no" frameborder="0" style="border:none; overflow:hidden; height:21px;" allowTransparency="true"></iframe></li>
-     <li class="github"><iframe src="http://ghbtns.com/github-btn.html?user=Tacha-S&repo=Tacha-S.github.io&type=watch&count=true" allowtransparency="true" frameborder="0" scrolling="0" width="110" height="20"></iframe></li>
-   </ul>
+        </div>
 
-  </div>
+        <div class="span3">
+        	<div class="contact-details">
+        		<h3>Contact Details</h3>
+                <ul>
+                    <li><a href="#">hello@brushed.com</a></li>
+                    <li>(916) 375-2525</li>
+                    <li>
+                        Brushed Studio
+                        <br>
+                        5240 Vanish Island. 105
+                        <br>
+                        Unknow
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <!-- End Contact Form -->
+</div>
+</div>
+<!-- End Contact Section -->
 
-  <script type="text/javascript">
-    hljs.initHighlightingOnLoad();
-    skrollr.init();
+<!-- Twitter Feed -->
+<div id="twitter-feed" class="page-alternate">
+	<div class="container">
+    	<div class="row">
+            <div class="span12">
+                <div class="follow">
+                    <a href="https://twitter.com/tacha_ioiq" title="Follow Me on Twitter" target="_blank"><i class="font-icon-social-twitter"></i></a>
+                </div>
 
-    (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-    (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-    m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-    })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
-    ga('create', 'UA-60995437-1', 'auto');
-    ga('send', 'pageview');
-  </script>
+                <div id="ticker" class="query">
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- End Twitter Feed -->
 
-  <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');</script>
+*/</script>
+
+
+<!-- Socialize -->
+<div id="social-area" class="page">
+	<div class="container">
+    	<div class="row">
+            <div class="span12">
+                  <div class="title-page">
+                      <h2 class="title">Contact</h2>
+                      <h3 class="title-description">Contact Me.</h3>
+                  </div>
+
+                <nav id="social">
+                    <ul>
+                        <li><a href="https://twitter.com/tacha_ioiq" title="Follow Me on Twitter" target="_blank"><span class="font-icon-social-twitter"></span></a></li>
+                        <!--<li><a href="http://dribbble.com/Bluxart" title="Follow Me on Dribbble" target="_blank"><span class="font-icon-social-dribbble"></span></a></li>-->
+                        <!--<li><a href="http://forrst.com/people/Bluxart" title="Follow Me on Forrst" target="_blank"><span class="font-icon-social-forrst"></span></a></li>-->
+                        <!--<li><a href="http://www.behance.net/alessioatzeni" title="Follow Me on Behance" target="_blank"><span class="font-icon-social-behance"></span></a></li>-->
+                        <li><a href="https://www.facebook.com/tatsuroh.sakaguchi" title="Follow Me on Facebook" target="_blank"><span class="font-icon-social-facebook"></span></a></li>
+                        <!--<li><a href="https://plus.google.com/105500420878314068694" title="Follow Me on Google Plus" target="_blank"><span class="font-icon-social-google-plus"></span></a></li>-->
+                        <!--<li><a href="http://www.linkedin.com/in/alessioatzeni" title="Follow Me on LinkedIn" target="_blank"><span class="font-icon-social-linkedin"></span></a></li>-->
+                        <!--<li><a href="http://themeforest.net/user/Bluxart" title="Follow Me on ThemeForest" target="_blank"><span class="font-icon-social-envato"></span></a></li>-->
+                        <!--<li><a href="http://zerply.com/Bluxart/public" title="Follow Me on Zerply" target="_blank"><span class="font-icon-social-zerply"></span></a></li>-->
+                        <li><a href="https://github.com/Tacha-S" title="Follow Me on Github" target="_blank"><span class="font-icon-social-github"></span></a></li>
+                        <li><a href="mailto:&#116;&#097;&#099;&#099;&#104;&#097;&#110;&#046;&#109;&#101;&#108;&#108;&#111;&#046;&#105;&#111;&#105;&#113;&#064;&#103;&#109;&#097;&#105;&#108;&#046;&#099;&#111;&#109;&#010;" target="_blank"><span class="font-icon-social-email"></span></a></li>
+                    </ul>
+                </nav>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- End Socialize -->
+
+<!-- Footer -->
+<footer>
+	<p class="credits">&copy;2013 Brushed. <a href="http://themes.alessioatzeni.com/html/brushed/" title="Brushed | Responsive One Page Template">Brushed Template</a> by <a href="http://www.alessioatzeni.com/" title="Alessio Atzeni | Web Designer &amp; Front-end Developer">Alessio Atzeni</a></p>
+</footer>
+<!-- End Footer -->
+
+<!-- Back To Top -->
+<a id="back-to-top" href="#">
+	<i class="font-icon-arrow-simple-up"></i>
+</a>
+<!-- End Back to Top -->
+
+
+<!-- Js -->
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script> <!-- jQuery Core -->
+<script src="_include/js/bootstrap.min.js"></script> <!-- Bootstrap -->
+<script src="_include/js/supersized.3.2.7.min.js"></script> <!-- Slider -->
+<script src="_include/js/waypoints.js"></script> <!-- WayPoints -->
+<script src="_include/js/waypoints-sticky.js"></script> <!-- Waypoints for Header -->
+<script src="_include/js/jquery.isotope.js"></script> <!-- Isotope Filter -->
+<script src="_include/js/jquery.fancybox.pack.js"></script> <!-- Fancybox -->
+<script src="_include/js/jquery.fancybox-media.js"></script> <!-- Fancybox for Media -->
+<script src="_include/js/jquery.tweet.js"></script> <!-- Tweet -->
+<script src="_include/js/plugins.js"></script> <!-- Contains: jPreloader, jQuery Easing, jQuery ScrollTo, jQuery One Page Navi -->
+<script src="_include/js/main.js"></script> <!-- Default JS -->
+<!-- End Js -->
+
 </body>
 </html>
