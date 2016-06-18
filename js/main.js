@@ -78,9 +78,9 @@ BRUSHED.slider = function(){
 		thumbnail_navigation    :   0,			// Thumbnail navigation
 		slides 					:  	[			// Slideshow Images
 											{image : 'img/slider-images/image01.jpg', title : '<div class="slide-content">Hello.</div>', thumb : '', url : ''},
-											{image : 'img/slider-images/image02.jpg', title : '<div class="slide-content">Stay hungry. Stay foolish.</div>', thumb : '', url : ''},
-											//{image : '_include/img/slider-images/image03.jpg', title : '<div class="slide-content">Tacha-S</div>', thumb : '', url : ''},
-											//{image : '_include/img/slider-images/image04.jpg', title : '<div class="slide-content">Tacha-S</div>', thumb : '', url : ''}
+											{image : 'img/slider-images/image02.jpg', title : '<div class="slide-content">Stay hungry.<br /> Stay foolish.</div>', thumb : '', url : ''},
+											//{image : 'img/slider-images/image03.jpg', title : '<div class="slide-content">Tacha-S</div>', thumb : '', url : ''},
+											//{image : 'img/slider-images/image04.jpg', title : '<div class="slide-content">Tacha-S</div>', thumb : '', url : ''}
 									],
 
 		// Theme Options
@@ -195,7 +195,7 @@ BRUSHED.contactForm = function(){
 
 		$.ajax({
 			type: "POST",
-			url: "_include/php/contact.php",
+			url: "php/contact.php",
 			data: fields,
 			dataType: 'json',
 			success: function(response) {
@@ -222,7 +222,7 @@ BRUSHED.tweetFeed = function(){
 	var valueTop = -64; // Margin Top Value
 
     $("#ticker").tweet({
-          modpath: '_include/js/twitter/',
+          modpath: 'js/twitter/',
           username: "Bluxart", // Change this with YOUR ID
           page: 1,
           avatar_size: 0,
@@ -405,7 +405,7 @@ $(document).ready(function(){
 	Modernizr.load([
 	{
 		test: Modernizr.placeholder,
-		nope: '_include/js/placeholder.js',
+		nope: 'js/placeholder.js',
 		complete : function() {
 				if (!Modernizr.placeholder) {
 						Placeholders.init({
