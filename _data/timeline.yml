@@ -1,0 +1,77 @@
+# > title: Name of your timeline entry, university or work place
+# > title-url: Link to your timeline entry, university or work place
+# > date: Time span
+# > subtitle: The description under the title
+# > tags: List of tags you want to associate with the entry
+# > timeline-side: The side on which you want to display the entry: left or right
+
+# Example of a timeline entry
+# - title: airbnb
+#   title-url: https://example.com/
+#   date: Sep 2019 - Present
+#   subtitle: Fullstack Developer
+#   tags:
+#     - tag: React
+#     - tag: Javascript
+#     - tag: Ruby
+#     - tag: Rails
+#   timeline-side: right
+
+- title: Softbank
+  title-url: http://www.softbank.jp/
+  date: 2020 - Present
+  subtitle: Robotics R & D as Intern
+  tags:
+    - tag: C++
+    - tag: Python
+    - tag: ROS
+  timeline-side: left
+
+- title: Softbank
+  title-url: http://www.softbank.jp/
+  date: Aug 2019 - Sep 2019
+  subtitle: Robotics R & D as Intern
+  tags:
+    - tag: C++
+    - tag: Python
+    - tag: ROS
+  timeline-side: right
+
+- title: Osaka University
+  title-url: https://www.osaka-u.ac.jp/ja
+  date: 2018 - 2020
+  subtitle: Master of Computer Science
+  timeline-side: left
+
+- title: PLEN Robotics
+  title-url: https://plenrobotics.com/
+  date: Oct 2017 - Mar 2020
+  subtitle: Robotics Software Engineer as Intern
+  tags:
+    - tag: Swift
+    - tag: Objective-C
+    - tag: nodejs
+    - tag: ROS
+    - tag: Python
+  timeline-side: right
+
+- title: VOYAGE GROUP
+  title-url: https://voyagegroup.com/
+  date: Aug 2017 - Sep 2017
+  subtitle: Web Engineer as Intern
+  tags:
+    - tag: Go
+    - tag: Javascript
+  timeline-side: right
+
+- title: Osaka University
+  title-url: https://www.osaka-u.ac.jp/ja
+  date: 2017 - 2018
+  subtitle: Bachelor of Computer Science
+  timeline-side: left
+
+- title: National Institute of Technology Toyota College
+  title-url: https://www.toyota-ct.ac.jp/
+  date: 2011 - 2016
+  subtitle: Associate Degree. Computer Science
+  timeline-side: left
