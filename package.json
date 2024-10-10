@@ -9,7 +9,7 @@
   "author": "Long Do",
   "license": "MIT",
   "dependencies": {
-    "browser-sync": "^3.0.2",
+    "browser-sync": "^3.0.3",
     "gulp": "^5.0.0",
     "gulp-autoprefixer": "^7.0.1",
     "gulp-concat": "^2.6.1",
